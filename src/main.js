@@ -1,12 +1,10 @@
 import Vue from 'vue'
 import App from './App'
-import router from './router'
+// import router from './router'
 
-Vue.config.productionTip = false
+import 'common/less/index.less'
 
-/* eslint-disable no-new */
-new Vue({
+Vue({
   el: '#app',
-  router,
   render: h => h(App)
 })
